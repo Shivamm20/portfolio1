@@ -1,0 +1,806 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
+.navbar{
+    display: flex;
+    background-color: #100d0d;
+    color: white;
+    justify-content: space-around;
+    padding: -0.4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    
+}
+li{
+  list-style: none;
+}
+li a{
+  color: #f4ffff;
+}
+
+li a:hover{
+  color: blue;
+}
+
+
+.name h1{
+    font-family: 'Noto Serif', serif;
+    padding: 1.1rem;
+    color: #fff;
+    font-size: 2.250rem;
+}
+.navbar ul{
+    display: flex;
+    color: white;
+}
+ul{
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1.1rem;
+}
+.navbar ul li:hover{
+    color: blue;
+}
+
+.navbar ul li{
+   font-weight: 900;
+    padding: 0.6rem;
+    cursor: pointer;
+}
+
+.menuDropdown{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+            
+  .navbar .menuBar{
+    display: none;
+  }
+  .menuDropdown{
+    display: unset;
+  }
+
+}
+
+.home{
+    background-image: url('joanna-kosinska-7ACuHoezUYk-unsplash\(1\).jpg');
+    width: 65.8%;
+    min-height: 67.8vh;
+    background-size: cover;
+background-position: center;
+background-attachment: fixed;
+border-bottom: 2px solid #c1badb;
+
+padding: 118px 260px;
+}
+
+
+
+.home.homename{
+    position: relative;
+top: 107px;
+left: 244px;
+display: flex;
+text-align: center;
+}
+.homename{
+  text-align: center;
+}
+
+.home h4{
+    color:  #efefef;
+   
+font-weight: 900;
+font-size: 30px;
+font-style: normal;
+}
+
+.home span{
+    color: #ffeaea;
+    line-height: 1.2;
+font-size: 49px;
+font-weight: 700;
+}
+
+.webD-animated{
+position: relative;
+height: 70px;
+overflow: hidden;
+margin-top: 70px;
+z-index: 1;
+left: 315px;
+}
+
+.webD-animated .sk1{
+    font-size: 2.438rem;
+    color: #e5c517;
+font-size: 3em;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 1px;
+}
+
+
+.webD-animated .sk2{
+    position: relative;
+left: 53px;
+font-size: 2.438rem;
+color: #e5c517;
+font-size: 3em;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 1px;
+}
+
+.webD-animated .sk3{
+    position: relative;
+left: 105px;
+font-size: 2.438rem;
+color: #e5c517;
+font-size: 3em;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 1px;
+}
+
+.webD-animated .sk1{
+    animation: skwebD 10s infinite;
+    }
+    @keyframes skwebD {
+        0%   {margin-top: 0;}
+        25%  {margin-top: -4.3rem;}
+        50%  {margin-top: -8.7rem;}                             
+        75%  {margin-top: -4.3rem;}
+        100% {margin-top: 0;}
+      }
+
+      .profiles{
+        padding: 56px;
+      }
+
+      .fa-instagram{
+        letter-spacing: 0.278em;
+font-size: 49px;
+      }
+
+      .profiles span{
+        letter-spacing: 0.278em;
+       color:  #fff5f5;
+      }
+
+      .about{
+          background-color: #f4ffff;
+      }
+      .aboutH{
+        display: flex;
+        justify-content: center;
+        color: black;
+        color: #0a0ada;
+        padding-top: 105px;
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+      }
+
+      .aboutMain{
+          display: flex;
+          justify-content: space-around;    
+          flex-direction: column;
+align-items: center;
+padding-top: 60px;
+          
+      }
+
+    .img{
+        width: 260px;
+height: 260px;
+border-radius: 140px;
+margin-bottom: 45px;
+
+    }
+    .img img{
+        border-radius: 149px;
+    }
+
+    .aboutTxt{
+        padding-top: 105px;
+        display: flex;
+        
+flex-direction: column;
+align-content: center;
+padding-top: 42px;
+    }
+
+    .aboutTxt h1{
+        display: flex;
+align-content: center;
+justify-content: center;
+
+padding-top: 45px;
+font-size: 38px;
+    }
+
+    .aboutTxt span{
+padding-top: 45px;
+    }
+
+    .txt{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        width: 53rem;
+        height: 10rem;
+        font-size: 23px;
+line-height: 1.3;
+font-weight: 500;
+font-style: normal;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 75px;
+
+    }
+
+    .skills{
+        background-color: #000016;
+        height: 40%;
+        padding-bottom: 200px;
+    }
+
+    .skillH{
+        display: flex;
+        justify-content: center;
+        color: #0a0ada;
+        padding-top: 105px;
+        font-size: 23px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+      }
+      .skillpara{
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 28px;
+        font-size: 17px;
+      }
+
+      .maindiv{
+          color: white;
+          display: flex;
+          justify-content: space-around;
+      }
+
+      .leftskill{
+        width: 40%;
+        margin-top: 95px;
+      }
+
+      .leftskill h1{
+      padding-bottom: 30px;
+      }
+
+      .rightskill{
+        margin-top: 95px;
+        width: 30%;
+        
+      }
+      .filler{
+        margin-bottom: 15px;
+        padding: 10px;
+      }
+
+      .infoprj{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 18px;
+line-height: 1.4;
+letter-spacing: 0.009em;
+font-weight: 700;
+      }
+
+      .fillerB{
+          background-color: #c2baaa;
+          width: 100%;
+          height: 13px;
+          border-radius: 10px;
+          
+      }
+      .giveChtml{
+        width: 75%;
+        height: 13px;
+          background-color: tomato;
+          border-radius: 10px;
+      }
+      .giveCcss{
+        width: 60%;
+        height: 13px;
+          background-color: rgb(6, 88, 155);
+          border-radius: 10px;
+      }
+      .giveCjs{
+        width: 40%;
+        height: 13px;
+          background-color: rgb(176, 164, 0);
+          border-radius: 10px;
+      }
+
+      .giveCRjs{
+        width: 30%;
+        height: 13px;
+          background-color: rgb(65, 6, 141);
+          border-radius: 10px;
+      }
+
+      .myProjects{
+        width: 100%;
+        height: 700px;
+background-color: #f4ffff;
+align-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+      }
+
+      .myProjects h4{
+        font-size: 53px;
+        position: relative;
+        bottom: 40px;
+        color: blue;  
+      }
+      .projectList{
+        display: flex;
+      }
+      
+      .Box1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .infoprj{
+        flex-direction: column;
+        font-size: 25px;
+line-height: 0;
+letter-spacing: 0.046em;
+      }
+
+      .infoprj .info1{
+        letter-spacing: 0.76px;
+line-height: 48px;
+font-weight: 700;
+font-size: 25px;
+color: #0e00b7;
+      }
+      .infoprj .info2{
+        font-weight: 500;
+font-size: 21px;
+align-items: center;
+display: flex;
+      }
+
+      .prj{
+       
+        margin-right: 22px;
+        margin-left: 22px;
+      }
+
+      .projectList .prj1{
+        /* background-color: red; */
+        width: 300px;
+        height: 315px;
+        /* background-image: url(CountdownImg.jpg); */
+        display: flex;
+justify-content: center;
+align-content: start;
+align-items: end;
+color: white;
+      
+      }
+      
+      .projectList .prj2{
+        background-color: Blue;
+        width: 300px;
+        height: 315px;
+        
+      }
+      .projectList .prj3{
+        background-color: green;
+        width: 300px;
+        height: 315px;
+       
+      }
+
+      .aboutPrj1{
+        width: 300px;
+        height: 55px;
+      }
+
+      .education{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 40px;
+          flex-direction: column;
+          padding-bottom: 70px;
+      }
+
+      .educationH{
+        display: flex;
+        justify-content: center;
+        color: #0a0ada;
+        padding-top: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        padding-bottom: 70px;
+        font-weight: 800;
+      }
+
+      .educationH{
+      font-size: 46px;
+      }
+
+      .educards{
+        display: flex;
+      }
+      
+
+      .card{
+        width: 300px;
+        height: 315px;
+        margin: 5px;
+        padding: 25px;
+        box-shadow: 0px 5px 25px rgba(1 1 1 / 15%);
+      }
+
+      .card span{
+          display: flex;
+          justify-content: center;
+          color: blue;
+          font-size: 110px;
+      }
+
+      
+      .card h3{
+        padding-top: 20px;
+        position: relative;
+        left: 39px;
+        
+      }
+
+      .board{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+        font-size: 28px;
+        color: blue;
+        font-family: 'Poppins', sans-serif;
+      }
+
+
+
+      .contactH{
+        justify-content: center;
+        display: flex;
+        padding-top: 80px;
+        color: #0a0ada;
+        padding-top: 105px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        padding-bottom: 70px;
+        font-size: 46px;       
+      }
+
+.line{
+
+  padding-top: 22px;
+font-size: 19px;
+text-align: center;
+
+}
+
+.line p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+  background-color: black;
+}
+
+.mainContact{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+}
+
+.addlogo{
+  font-size: 95px;
+  color: blue;
+}
+
+.heading{
+  text-align: center;
+  color: white;
+}
+
+.address{
+  text-align: center;
+  color: white;
+}
+
+.infoo{
+  padding-top: 20px;
+  color: white;
+}
+.infoo h5{
+  font-size: 25px;
+  color: white;
+}
+
+.infoo p{
+  font-size: 17px;
+font-weight: 500;
+font-family: 'Poppins', sans-serif;
+color: white;
+
+}
+.contactCard{
+  width: 200px;
+margin: 5px;
+padding: 25px;
+padding: 25px;
+box-shadow: 0px 5px 25px rgba(255, 255, 255, 0.15);
+color: white;
+}
+
+.footer{
+  background: #fff;
+color: #fff;
+text-align: center;
+padding: 2em;
+}
+
+.footer .footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+  .footer p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.profiles{
+  display: flex;
+justify-content: center;
+padding-top: 145px;
+}
+  .profiles a{
+    color: brown;
+  }
+  .profiles a:hover{
+    color: blue;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    /* z-index: 99; */
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover{
+color: chocolate;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .txt{
+      width: 20rem;
+      height: 29rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .leftskill{
+      width: 90%;
+      margin-top: 95px;
+      margin-left: 16px;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+    .rightskill{
+      margin-top: 95px;
+      width: 90%;
+      margin-left: 15px;
+    }
+  }
+   
+    @media only screen and (max-width: 600px) {
+      .cardHs{
+        margin-bottom : 15px;
+      }
+    }
+
+      @media only screen and (max-width: 600px) {
+        .cardInter{
+          margin-bottom : 15px;
+        }
+      }
+
+        @media only screen and (max-width: 600px) {
+          .cardMmm{
+            margin-bottom : 15px;
+          }
+        }
+
+          @media only screen and (max-width: 600px) {
+            .educards{
+             display: block;
+            }
+          }
+          @media only screen and (max-width: 600px) {
+            
+            .mainContact{
+             display: block;
+            }
+          }
+
+            @media only screen and (max-width: 600px) {
+            
+              .maindiv{
+               display: block;
+              }
+            }
+            
+          @media only screen and (max-width: 600px) {
+            
+            #address{
+             margin-left: 60px;
+            }
+            #phone{
+              margin-left:60px;
+             }
+
+             #email{
+              margin-left: 60px;
+             }
+
+             #website{
+              margin-left: 60px;
+             }
+            }
+
+            @media only screen and (max-width: 600px) {
+            
+              .homename span{
+                font-size: 39px;
+                right: 183px;
+                position: relative; 
+                font-size: 30px;
+left: -162px;
+              }
+            }
+            
+              @media only screen and (max-width: 600px) {
+            
+                .homename h4 {                 
+              position: relative;
+              right: 121px;
+                }
+              }
+
+              @media only screen and (max-width: 600px) {
+            .homename{
+              text-align: initial;
+            }
+                }
+              
+                @media only screen and (max-width: 600px) {
+                  .profiles {                 
+                    position: relative;
+                  right: 205px;
+                      }
+                      }
+
+                      @media only screen and (max-width: 600px) {
+                        #myBtn {                 
+                         
+                      position: relative;
+                      left: 253px;
+                      bottom: 69px;
+                      
+                            }
+                            }
+
+                            @media only screen and (max-width: 600px) {
+                              .webD-animated {
+                                left: -14rem;
+                                position: relative;
+                                height: 40px;
+                                overflow: hidden;
+                                margin-top: 70px;
+                                z-index: 1;
+                            }
+                            
+                                  }
+
+                                 
+
+                                  @media only screen and (max-width: 600px) {
+                                    .webD-animated .sk1  {
+                                                                            
+                                  line-height: 39px;
+                                  color: #e5c517;
+                                  font-size: 1em;
+                                  font-weight: 700;
+                                  line-height: 55px;
+                                  letter-spacing: 1px;
+                                  left: 53px;
+position: relative;
+
+                                  }
+                                }
+
+                                @media only screen and (max-width: 600px) {
+                                  .webD-animated .sk2 {
+                                    
+                                    left: revert;
+                                    position: relative;
+                                    font-size: 2.438rem;
+                                    color: #e5c517;
+                                    font-size: 1.5em;
+                                    font-weight: 700;
+                                    line-height: 70px;
+                                    letter-spacing: 1px;
+                                    left: 65px;
+                                    position: relative;
+                                }
+                              }
+                               
+                              @media only screen and (max-width: 600px) {
+                                .webD-animated .sk3 {                               
+                                  position: relative;
+                                  left: 105px;
+                                  font-size: 2.438rem;
+                                  color: #e5c517;
+                                  font-size: 1.2em;
+                                  font-weight: 700;                                  
+                                  line-height: 58px;
+                                  letter-spacing: 1px;
+                              }
+                            }
+                               
+                                  
+                            
+            
